@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.android.guitartrainer.MainActivity">
+
+        <TextView
+            android:id="@+id/notes"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="notes" />
+
+        <TextView
+            android:id="@+id/chords"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimary"
+            android:text="Chords" />
+
+        <TextView
+            android:id="@+id/songs"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="Songs" />
+
+        <TextView
+            android:id="@+id/player"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimary"
+            android:text="Player" />
+
+        <TextView
+            android:id="@+id/about"
+            style="@style/CategoryStyle"
+            android:background="@color/colorPrimaryDark"
+            android:text="about" />
+
+</LinearLayout>

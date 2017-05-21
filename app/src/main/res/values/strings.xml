@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GuitarTrainer</string>
+    <string name="about">ABOUT</string>
+    <string name="songs">SONGS</string>
+    <string name="notes">NOTES</string>
+    <string name="player">PLAYER</string>
+    <string name="chords">CHORDS</string>
+
+</resources>
