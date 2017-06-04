@@ -5,5 +5,14 @@
     <string name="notes">NOTES</string>
     <string name="player">PLAYER</string>
     <string name="chords">CHORDS</string>
-
+    <string name="about_button">ABOUT</string>
+    <string name="songs_button">SONGS</string>
+    <string name="notes_button">NOTES</string>
+    <string name="player_button">PLAYER</string>
+    <string name="chords_button">CHORDS</string>
+    <string name="chords_desc">This activity contains playable sounds of each guitar chord. </string>
+    <string name="about_desc">This activity contains basic information about an app, version, author and release date.</string>
+    <string name="notes_desc">This activity contains playable sounds of each guitar string note E-A-D-G-B-E. </string>
+    <string name="songs_desc">This activity contains a couple of song recordings with tabs which describe how to play them on guitar. </string>
+    <string name="player_desc">This activity contains player which allows to select an mp3 file located on your mobile in a specific locali</string>
 </resources>
