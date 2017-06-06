@@ -8,13 +8,13 @@
     android:background="@color/colorSongs"
     tools:context="com.example.android.guitartrainer.PlayerActivity">
 
-    <EditText
-        android:id="@+id/editText3"
+    <TextView
+        android:id="@+id/LabelSongs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text="Name" />
+        android:padding="15dp"
+        style="@style/ActivityStyle"
+        android:text="@string/songs" />
 
     <TextView
         android:id="@+id/textView4"

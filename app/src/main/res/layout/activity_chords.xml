@@ -8,12 +8,12 @@
     android:orientation="vertical"
     android:background="@color/colorChords">
 
-    <EditText
-        android:id="@+id/editText"
+    <TextView
+        android:id="@+id/LabelChords"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:ems="10"
-        android:inputType="textPersonName"
+        android:padding="15dp"
+        style="@style/ActivityStyle"
         android:text="@string/chords" />
 
     <TextView
