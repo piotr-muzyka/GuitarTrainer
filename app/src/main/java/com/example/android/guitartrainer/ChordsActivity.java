@@ -17,9 +17,9 @@ public class ChordsActivity extends AppCompatActivity {
         setContentView(R.layout.activity_chords);
 
         // Find the View that shows the numbers category
-        Button chords = (Button) findViewById(R.id.button2);
+        Button songs = (Button) findViewById(R.id.button3);
         // Set a click listener on that View
-        chords.setOnClickListener(new View.OnClickListener() {
+        songs.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
@@ -29,5 +29,6 @@ public class ChordsActivity extends AppCompatActivity {
                 startActivity(songsIntent);
             }
         });
+
     }
 }

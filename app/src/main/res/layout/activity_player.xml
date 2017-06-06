@@ -1,17 +1,96 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorPlayer"
     tools:context="com.example.android.guitartrainer.PlayerActivity">
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/player"
+        />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="@dimen/TextViewPadding"
-        android:text="@string/player_desc" />
+        style="@style/ActivityStyle"
+        android:text="@string/player_desc"
+        android:layout_below="@id/editText4"/>
+
+    <ListView
+        android:id="@+id/ListView1"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView5"
+        android:visibility="visible" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@+id/ListView1">
+
+        <ProgressBar
+            android:id="@+id/progressBar3"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="21dp"
+            android:max="100"
+            android:progress="50"
+            android:visibility="visible"
+            tools:visibility="visible" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            >
+
+            <ImageButton
+                android:id="@+id/buttonPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/mediaButtonHeight"
+                android:layout_weight="1"
+                android:text="@string/buttonPlay"
+                app:srcCompat="@android:drawable/ic_media_play" />
+
+            <ImageButton
+                android:id="@+id/buttonPause"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/mediaButtonHeight"
+                android:layout_weight="1"
+                android:text="@string/buttonPause"
+                app:srcCompat="@android:drawable/ic_media_pause" />
+
+            <ImageButton
+                android:id="@+id/buttonForward"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/mediaButtonHeight"
+                android:layout_weight="1"
+                android:text="@string/buttonForward"
+                app:srcCompat="@android:drawable/ic_media_ff" />
+
+            <ImageButton
+                android:id="@+id/buttonStop"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/mediaButtonHeight"
+                android:layout_weight="1"
+                android:text="@string/buttonStop"
+                app:srcCompat="@android:drawable/picture_frame" />
+
+        </LinearLayout>
+
+    </LinearLayout>
 
 
-</LinearLayout>
+</RelativeLayout>

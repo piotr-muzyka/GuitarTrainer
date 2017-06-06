@@ -17,9 +17,9 @@ public class NotesActivity extends AppCompatActivity {
         setContentView(R.layout.activity_notes);
 
         // Find the View that shows the numbers category
-        Button notes = (Button) findViewById(R.id.button);
+        Button player = (Button) findViewById(R.id.button2);
         // Set a click listener on that View
-        notes.setOnClickListener(new View.OnClickListener() {
+        player.setOnClickListener(new View.OnClickListener() {
             // The code in this method will be executed when the numbers category is clicked on.
             @Override
             public void onClick(View view) {
@@ -29,5 +29,6 @@ public class NotesActivity extends AppCompatActivity {
                 startActivity(chordsIntent);
             }
         });
+
     }
 }

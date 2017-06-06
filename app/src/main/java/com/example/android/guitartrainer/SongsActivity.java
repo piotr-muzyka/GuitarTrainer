@@ -28,5 +28,6 @@ public class SongsActivity extends AppCompatActivity {
                 startActivity(playerIntent);
             }
         });
+
     }
 }

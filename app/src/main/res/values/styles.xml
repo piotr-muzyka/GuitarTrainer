@@ -20,4 +20,13 @@
         <item name="android:textAllCaps">true</item>
     </style>
 
+    <style name="ActivityStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">left</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
 </resources>
